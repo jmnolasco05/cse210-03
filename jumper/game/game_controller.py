@@ -70,7 +70,7 @@ class GameController():
 
         if self._secret_word.is_word_guessed():
             self._game_over = True
-            print("You win")
+            print("You win!")
 
     def check_jumper_life(self):
         """Check if the jumper does not have more parachutes."""
